@@ -1,4 +1,4 @@
-# Cài đặt virtualenv:
+# 1.Cài đặt virtualenv:
 
   pip install virtualenv
   
@@ -74,16 +74,16 @@ wincertstore==0.2
 
 Sau đó chạy lại lệnh
 
-#2. Tạo môi trường ảo:
+# 2. Tạo môi trường ảo:
 
 virtualenv env
 
-#3. Kích hoạt môi trường ảo:
+# 3. Kích hoạt môi trường ảo:
 Windows:
     env\Scripts\activate
 Linux/Mac:
     source env/bin/activate
-#4. Cài đặt các package cần thiết:
+# 4. Cài đặt các package cần thiết:
     pip install -r requirements.txt
-#5. Chạy server
+# 5. Chạy server
     flask run
